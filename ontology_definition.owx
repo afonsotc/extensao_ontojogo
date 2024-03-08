@@ -1,0 +1,1908 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/afons/ontologies/2024/2/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/afons/ontologies/2024/2/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/afons/ontologies/2024/2/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Archetypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Available"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character_choice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curriculum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming_platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerProfile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PedagogicPrinciple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player_perspective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkillSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Story"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teacher_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongs_to_platform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#covers_event"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_archetype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_information"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_learner_profile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_learning_situation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_pedagogic_principle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_perspective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_player_number"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_prerequisite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_progression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_story"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#include_skills"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes_learningsituations"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involves_character_choice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_available"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#skill_required"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#skill_taught"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#skillset_required"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#teaches_learning_situation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#with_ending"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#with_input"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Label"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Learning_event_atrib1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Learning_style"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prerequisite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Reference_work"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Release_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#School_Level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SkillRequired"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SkillTaught"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Storyline"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alfafa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arcada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artisan_Killer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Board"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Character-Driven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Competitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Complementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Completar_palavra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compreender_baixa_condutividade_térmica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compreender_que_o_Titânio_tem_condutividade_térmica_muito_baixa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CompreensaoReforçoEscrita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CompreensaoReforçoLeitura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conqueror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Console"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cooperative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CreationConfrontation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Customization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DebateAnimation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Default"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Designer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Offline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Online"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Educational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evaluator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExercisingGuidance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExperimentationReactivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExplorationDocumentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Facilitator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fighting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#First-Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guardian_Achiever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HabilidadeCompreenderBaixaCondutividade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HabilidadeCompreenderTitanioTemMuitoBaixaCondutividade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HabilidadeDeEscrita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HabilidadeDeLeitura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hardcore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hidden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Idealist_Socialiser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ImitationModeling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Keyboard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Level-Based"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Motivator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Movement-based"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiplayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#None"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Open"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paper_and_Pen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Participant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perfect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plot-Driven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portable_Console"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Puzzle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Racing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rational_Explorer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReceptionTransmission"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhythm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Role_Playing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saloon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sandbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Select"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SelfReflectionCorreflection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shooter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Single_Player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Singular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemAlfabetizacaoLeituraEEscrita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemTitanioMauCondutor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Strategy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Survival"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Table"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Termodinâmica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Third-Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Touch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voice-based"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wanderer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skillLeituraInstanceFromElektraOntology"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_learner_profile"/>
+            <Class IRI="#LearnerProfile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_learning_situation"/>
+            <Class IRI="#LearningSituation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_pedagogic_principle"/>
+            <Class IRI="#PedagogicPrinciple"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Alfafa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PedagogicPrinciple"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Arcada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Artisan_Killer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Board"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Casual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game_mode"/>
+        <NamedIndividual IRI="#Casual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Story"/>
+        <NamedIndividual IRI="#Character-Driven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game_mode"/>
+        <NamedIndividual IRI="#Competitive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Story"/>
+        <NamedIndividual IRI="#Complementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningSituation"/>
+        <NamedIndividual IRI="#Completar_palavra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#Compreender_baixa_condutividade_térmica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#Compreender_que_o_Titânio_tem_condutividade_térmica_muito_baixa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#CompreensaoReforçoEscrita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#CompreensaoReforçoLeitura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Conqueror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming_platform"/>
+        <NamedIndividual IRI="#Console"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input"/>
+        <NamedIndividual IRI="#Controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game_mode"/>
+        <NamedIndividual IRI="#Cooperative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#CreationConfrontation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Curriculum"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Curriculum"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character_choice"/>
+        <NamedIndividual IRI="#Customization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#DebateAnimation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character_choice"/>
+        <NamedIndividual IRI="#Default"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher_role"/>
+        <NamedIndividual IRI="#Designer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Dice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Available"/>
+        <NamedIndividual IRI="#Digital_Offline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Available"/>
+        <NamedIndividual IRI="#Digital_Online"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Educational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher_role"/>
+        <NamedIndividual IRI="#Evaluator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#ExercisingGuidance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#ExperimentationReactivity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#ExplorationDocumentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher_role"/>
+        <NamedIndividual IRI="#Facilitator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Fighting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player_perspective"/>
+        <NamedIndividual IRI="#First-Person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Guardian_Achiever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#HabilidadeCompreenderBaixaCondutividade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#HabilidadeCompreenderTitanioTemMuitoBaixaCondutividade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#HabilidadeDeEscrita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#HabilidadeDeLeitura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Hardcore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Information"/>
+        <NamedIndividual IRI="#Hidden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Idealist_Socialiser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#ImitationModeling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input"/>
+        <NamedIndividual IRI="#Keyboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Progression"/>
+        <NamedIndividual IRI="#Level-Based"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Progression"/>
+        <NamedIndividual IRI="#Linear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PedagogicPrinciple"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming_platform"/>
+        <NamedIndividual IRI="#Mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher_role"/>
+        <NamedIndividual IRI="#Motivator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input"/>
+        <NamedIndividual IRI="#Movement-based"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player_number"/>
+        <NamedIndividual IRI="#Multiplayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ending"/>
+        <NamedIndividual IRI="#Multiple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningSituation"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher_role"/>
+        <NamedIndividual IRI="#None"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Progression"/>
+        <NamedIndividual IRI="#Open"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming_platform"/>
+        <NamedIndividual IRI="#PC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Paper_and_Pen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Participant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Information"/>
+        <NamedIndividual IRI="#Perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Platform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teacher_role"/>
+        <NamedIndividual IRI="#Player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Story"/>
+        <NamedIndividual IRI="#Plot-Driven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming_platform"/>
+        <NamedIndividual IRI="#Portable_Console"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Puzzle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Rational_Explorer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#ReceptionTransmission"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Rhythm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Role_Playing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Saloon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ending"/>
+        <NamedIndividual IRI="#Sandbox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character_choice"/>
+        <NamedIndividual IRI="#Select"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningEvent"/>
+        <NamedIndividual IRI="#SelfReflectionCorreflection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Shooter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Simulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player_number"/>
+        <NamedIndividual IRI="#Single_Player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ending"/>
+        <NamedIndividual IRI="#Singular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningSituation"/>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemAlfabetizacaoLeituraEEscrita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningSituation"/>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemTitanioMauCondutor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Sports"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Strategy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Survival"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Table"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player_perspective"/>
+        <NamedIndividual IRI="#Third-Person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input"/>
+        <NamedIndividual IRI="#Touch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Progression"/>
+        <NamedIndividual IRI="#Tree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Input"/>
+        <NamedIndividual IRI="#Voice-based"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Archetypes"/>
+        <NamedIndividual IRI="#Wanderer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearnerProfile"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearnerProfile"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skill"/>
+        <NamedIndividual IRI="#skillLeituraInstanceFromElektraOntology"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Platform"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_archetype"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Guardian_Achiever"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_archetype"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Participant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_archetype"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Rational_Explorer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_information"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Perfect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mode"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Casual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pedagogic_principle"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_perspective"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Third-Person"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_player_number"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Single_Player"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_progression"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Level-Based"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_story"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Complementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes_learningsituations"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves_character_choice"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Customization"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_available"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Digital_Online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_taught"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#CompreensaoReforçoEscrita"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_taught"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#CompreensaoReforçoLeitura"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#teaches_learning_situation"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Facilitator"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_ending"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Sandbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_input"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Controller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_input"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Keyboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_input"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_input"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <NamedIndividual IRI="#Touch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers_event"/>
+        <NamedIndividual IRI="#Completar_palavra"/>
+        <NamedIndividual IRI="#ExperimentationReactivity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_required"/>
+        <NamedIndividual IRI="#Completar_palavra"/>
+        <NamedIndividual IRI="#HabilidadeDeLeitura"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_taught"/>
+        <NamedIndividual IRI="#Completar_palavra"/>
+        <NamedIndividual IRI="#HabilidadeDeEscrita"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_prerequisite"/>
+        <NamedIndividual IRI="#Compreender_que_o_Titânio_tem_condutividade_térmica_muito_baixa"/>
+        <NamedIndividual IRI="#HabilidadeCompreenderBaixaCondutividade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_prerequisite"/>
+        <NamedIndividual IRI="#CompreensaoReforçoLeitura"/>
+        <NamedIndividual IRI="#skillLeituraInstanceFromElektraOntology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_learning_situation"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemAlfabetizacaoLeituraEEscrita"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes_learningsituations"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemTitanioMauCondutor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#covers_event"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+        <NamedIndividual IRI="#ExperimentationReactivity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_required"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+        <NamedIndividual IRI="#HabilidadeCompreenderBaixaCondutividade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_taught"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+        <NamedIndividual IRI="#HabilidadeCompreenderTitanioTemMuitoBaixaCondutividade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Educational"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Simulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to_platform"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_information"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Perfect"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_learner_profile"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_learning_situation"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mode"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Casual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pedagogic_principle"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pedagogic_principle"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_player_number"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Single_Player"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_progression"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Level-Based"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_story"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#None"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes_learningsituations"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#SituacaoDeAprendizagemTitanioMauCondutor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves_character_choice"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Default"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_available"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Digital_Online"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_taught"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Compreender_baixa_condutividade_térmica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skill_taught"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Compreender_que_o_Titânio_tem_condutividade_térmica_muito_baixa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_ending"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#None"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_input"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Keyboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#with_input"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_rating"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <Literal>Alfaba: Guardião das Letrinhas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Storyline"/>
+        <NamedIndividual IRI="#Alfafa"/>
+        <Literal>Fiction</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Author"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+        <Literal>David Paul Ausubel, Helen Hanesian, Joseph D. Novak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+        <Literal>Teoria da Aprendizagem Significativa de David Paul Ausubel,
+Joseph D. Novak e Helen Hanesian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Reference_work"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+        <Literal>AUSUBEL, D.; NOVAK, J.D.; HANESIAN, H. Psicologia edu-
+cacional. Rio de Janeiro: Interamericana, 1980.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Aprendizagem_Significativa"/>
+        <Literal>Aprendizagem Significativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Completar_palavra"/>
+        <Literal>Um objeto que está amaldiçoado no cenário é porque está
+sem algumas letras. O jogador deve obter as letras, e
+preencher corretamente a palavra completa para remover a
+maldição do objeto.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Completar_palavra"/>
+        <Literal>Preencher corretamente a palavra com as letras que faltam
+para remover a maldição.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Compreender_baixa_condutividade_térmica"/>
+        <Literal>Compreender que um material com baixa condutividade
+térmica conduz energia lenta e ineficazmente.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Compreender_baixa_condutividade_térmica"/>
+        <Literal>Compreender baixa condutividade térmica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prerequisite"/>
+        <NamedIndividual IRI="#Compreender_baixa_condutividade_térmica"/>
+        <Literal>None</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Compreender_que_o_Titânio_tem_condutividade_térmica_muito_baixa"/>
+        <Literal>Compreender que o Titânio tem condutividade térmica
+muito baixa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Compreender_que_o_Titânio_tem_condutividade_térmica_muito_baixa"/>
+        <Literal>Compreender que o material Titânio tem condutividade tér-
+mica muito baixa.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#CompreensaoReforçoEscrita"/>
+        <Literal>A habilidade de leitura é a capacidade de correspondência
+entre letra e sons, que é a decodificação de grafemas em
+fonemas, além de necessitar de letramento</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#CompreensaoReforçoEscrita"/>
+        <Literal>Compreender ou reforçar a habilidade de leitura.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#CompreensaoReforçoLeitura"/>
+        <Literal>A habilidade de escrita é a capacidade de atribuir fonemas
+a grafemas, que é reconhecer traçado das letras (símbolos),
+saber a que sons as letras correspondem, identificar a posição
+das letras dentro da palavra e compreender que uma mesma
+letra pode representar diferentes sons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#CompreensaoReforçoLeitura"/>
+        <Literal>Compreender ou reforçar a habilidade de leitura.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Country"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+        <Literal>Brasil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+        <Literal>Não se refere a nenhum currículo em específico, mas trata
+sobre alfabetização, assunto abordado nos anos iniciais do
+ensino fundamental.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+        <Literal>Currículo escolar brasileiro.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Subject"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro"/>
+        <Literal>Português, alfabetização</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Country"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+        <Literal>Brasil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+        <Literal>Não se refere a nenhum currículo em específico, mas trata
+do tema da Termodinâmica, assunto tratado nas disciplinas
+de Ciências do Ensino Fundamental e de Física do Ensino
+Médio das escolas brasileiras.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+        <Literal>Currículo escolar brasileiro.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Subject"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+        <Literal>Física</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Subject"/>
+        <NamedIndividual IRI="#Curriculo_escolar_brasileiro_termodinamica"/>
+        <Literal>Termodinâmica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Author"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+        <Literal>Demétrio Delizoicov</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Author"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+        <Literal>Jose Andre Peres Angott</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+        <Literal>Metodologia de ensino de Ciências de Demétrio Delizoicov
+e Jose Andre Peres Angotti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Reference_work"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+        <Literal>DELIZOIVOC, D. E ANGOTTI, J.A. Metodologia do Ensino
+de Ciências. São Paulo: Cortez, 1992.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Metodologia_Três_Momentos_Pedagógicos"/>
+        <Literal>Metodologia de ensino dos Três Momentos Pedagógicos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+        <Literal>Materiais de baixa condutividade conduzem energia lenta
+e ineficazmente. O estudante precisará usar esse conheci-
+mento para selecionar um material de muito baixa condu-
+tividade</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#Necessário_selecionar_Titânio_na_barra_do_lado_esquerdo_na_fase_8"/>
+        <Literal>Necessário selecionar Titânio na barra do lado esquerdo na
+fase 8.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_rating"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <Literal>Materiais de baixa condutividade conduzem energia lenta
+e ineficazmente. O estudante precisará usar esse conheci-
+mento para selecionar um material de muito baixa condu-
+tividade na barra relativa ao maçarico do lado esquerdo, que
+é o primeiro a acender, na fase 8. Isso fará com que a queda
+da bola 3 seja retardada e seja possível fazer a combinação
+correta. Sendo o Titânio o material correto para a barra da
+esquerda para a solução da fase, o estudante deverá apren-
+der que o mesmo é um péssimo condutor de energia.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Storyline"/>
+        <NamedIndividual IRI="#Termodinâmica"/>
+        <Literal>None</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Country"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+        <Literal>Brasil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+        <Literal>Estudantes brasileiros em idade de alfabetização.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+        <Literal>Estudantes brasileiros entre 7 a 11 anos.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sex"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+        <Literal>Feminino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sex"/>
+        <NamedIndividual IRI="#profile_crianca_7_a_11"/>
+        <Literal>Masculino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Country"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+        <Literal>Brasil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Description"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+        <Literal>Este perfil de estudantes refere-se a estudantes de idade
+entre 12 a 14 anos de ambos os sexo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Label"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+        <Literal>Estudantes brasileiros de 12 a 14 anos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sex"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+        <Literal>Feminino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sex"/>
+        <NamedIndividual IRI="#profile_termodinamica_criança_12_a_14"/>
+        <Literal>Masculino</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongs_to_platform"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#covers_event"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_archetype"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_information"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_learner_profile"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_learning_situation"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_mode"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_pedagogic_principle"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_perspective"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_player_number"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_prerequisite"/>
+        <Class IRI="#Skill"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_progression"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_story"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#include_skills"/>
+        <Class IRI="#SkillSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes_learningsituations"/>
+        <Class IRI="#Curriculum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involves_character_choice"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_available"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#skill_required"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#skill_taught"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#skillset_required"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#teaches_learning_situation"/>
+        <Class IRI="#Teacher_role"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#with_ending"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#with_input"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongs_to_genre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongs_to_platform"/>
+        <Class IRI="#Gaming_platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers_event"/>
+        <Class IRI="#LearningEvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_archetype"/>
+        <Class IRI="#Archetypes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_information"/>
+        <Class IRI="#Information"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_learner_profile"/>
+        <Class IRI="#LearnerProfile"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_learning_situation"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_mode"/>
+        <Class IRI="#Game_mode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_pedagogic_principle"/>
+        <Class IRI="#PedagogicPrinciple"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_perspective"/>
+        <Class IRI="#Player_perspective"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_player_number"/>
+        <Class IRI="#Player_number"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_prerequisite"/>
+        <Class IRI="#Skill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_progression"/>
+        <Class IRI="#Progression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_story"/>
+        <Class IRI="#Story"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#include_skills"/>
+        <Class IRI="#Skill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes_learningsituations"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involves_character_choice"/>
+        <Class IRI="#Character_choice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_available"/>
+        <Class IRI="#Available"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#skill_required"/>
+        <Class IRI="#Skill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#skill_taught"/>
+        <Class IRI="#Skill"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#skillset_required"/>
+        <Class IRI="#SkillSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#teaches_learning_situation"/>
+        <Class IRI="#LearningSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#with_ending"/>
+        <Class IRI="#Ending"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#with_input"/>
+        <Class IRI="#Input"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_rating"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Author"/>
+        <Class IRI="#PedagogicPrinciple"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country"/>
+        <Class IRI="#Curriculum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Country"/>
+        <Class IRI="#LearningSituation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#LearningSituation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#PedagogicPrinciple"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Skill"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#SkillSet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Label"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Label"/>
+        <Class IRI="#LearningSituation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Label"/>
+        <Class IRI="#Skill"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Label"/>
+        <Class IRI="#SkillSet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Learning_event_atrib1"/>
+        <Class IRI="#LearningEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Learning_style"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prerequisite"/>
+        <Class IRI="#Skill"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Reference_work"/>
+        <Class IRI="#PedagogicPrinciple"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Release_date"/>
+        <Class IRI="#Curriculum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#School_Level"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sex"/>
+        <Class IRI="#LearnerProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SkillRequired"/>
+        <Class IRI="#LearningSituation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SkillTaught"/>
+        <Class IRI="#LearningSituation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Storyline"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Subject"/>
+        <Class IRI="#Curriculum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#PedagogicPrinciple"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Version"/>
+        <Class IRI="#Curriculum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_rating"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Author"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Label"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Learning_event_atrib1"/>
+        <DataOneOf>
+            <Literal>CreationConfrontation</Literal>
+            <Literal>DebateAnimation</Literal>
+            <Literal>ExercisingGuidance</Literal>
+            <Literal>ExperimentationReactivity</Literal>
+            <Literal>ExplorationDocumentation</Literal>
+            <Literal>ImitationModeling</Literal>
+            <Literal>ReceptionTransmission</Literal>
+            <Literal>SelfReflectionCorreflection</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Learning_style"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Prerequisite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Reference_work"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Release_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#School_Level"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sex"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SkillRequired"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SkillTaught"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Storyline"/>
+        <DataOneOf>
+            <Literal>fiction</Literal>
+            <Literal>null</Literal>
+            <Literal>real</Literal>
+            <Literal>world</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Subject"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
